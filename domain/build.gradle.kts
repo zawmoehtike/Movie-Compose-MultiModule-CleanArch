@@ -40,4 +40,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation(libs.javax.inject)
+    implementation(libs.coroutine.core)
+    implementation(libs.paging.common)
 }
