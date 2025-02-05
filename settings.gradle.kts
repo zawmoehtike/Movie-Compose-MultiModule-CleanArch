@@ -21,4 +21,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "Movie-Compose-MultiModule-CleanArch"
 include(":app")
- 
+include(":base")
+include(":share")
+include(":domain")
+include(":data")

@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.zawmoehtike.movie_compose_multimodule_cleanarch"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.zawmoehtike.movie_compose_multimodule_cleanarch"
