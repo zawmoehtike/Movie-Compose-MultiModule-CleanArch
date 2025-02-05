@@ -17,11 +17,18 @@ pagingCompose = "3.3.0-beta01"
 ktor = "2.3.8"
 daggerHilt = "2.50"
 timber = "5.0.1"
-ksp = "1.9.22-1.0.17"
+ksp = "2.0.21-1.0.27"
 chucker = "4.0.0"
 roomVersion = "2.6.1"
 securityCrypto = "1.1.0-alpha04"
 kotlinxSerialization = "1.6.3"
+composeAnimation = "1.7.0-beta01"
+lifecycleVersion = "2.7.0"
+constraintLayoutCompose = "1.1.0-alpha13"
+androidxHiltNavigationCompose = "1.2.0"
+androidxNavigation = "2.7.7"
+coil = "2.6.0"
+kotlinxSerializationPlugin = "1.9.22"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -41,6 +48,21 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 androidx-material = { group = "androidx.compose.material", name = "material" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+# androidx activity
+androidx-activity-activity = { group = "androidx.activity", name = "activity", version.ref = "activityCompose" }
+# androidx compose navigation
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidxNavigation" }
+# androidx compose navigation hilt
+androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "androidxHiltNavigationCompose" }
+# androidx compose material 3 win size class
+androidx-compose-material3-windowSizeClass = { group = "androidx.compose.material3", name = "material3-window-size-class" }
+# androidx compose constraint layout
+constraint-compose = { module = "androidx.constraintlayout:constraintlayout-compose", version.ref = "constraintLayoutCompose" }
+# androidx compose animation
+androidx-compose-animation-core = { group = "androidx.compose.animation", name = "animation-core", version.ref = "composeAnimation" }
+androidx-compose-animation = { group = "androidx.compose.animation", name = "animation", version.ref = "composeAnimation" }
+# compose viewmodel
+compose-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleVersion" }
 # javax
 javax-inject = { module = "javax.inject:javax.inject", version.ref = "javaxInject" }
 # coroutine
@@ -55,6 +77,8 @@ ktor-client-logging = { module = "io.ktor:ktor-client-logging", version.ref = "k
 ktor-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor" }
 ktor-kotlinx-serialization = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor" }
 kotlinx-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerialization" }
+# coil
+coil = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
 # room
 room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomVersion" }
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomVersion" }
@@ -74,8 +98,12 @@ android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
+# kotlinx serialization
+koltinxSerilization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlinxSerializationPlugin" }
 # ksp
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+# hilt
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "daggerHilt" }
 
 [bundles]
 # ktor
