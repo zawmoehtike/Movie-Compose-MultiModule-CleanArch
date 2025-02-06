@@ -1,4 +1,4 @@
-package com.zawmoehtike.base.viewstate
+package com.zawmoehtike.base.viewstates
 
 sealed class ListViewState<out T> {
     open operator fun invoke(): T? = null

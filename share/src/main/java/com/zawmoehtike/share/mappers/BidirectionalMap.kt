@@ -1,4 +1,4 @@
-package com.zawmoehtike.share.mapper
+package com.zawmoehtike.share.mappers
 
 /**
  * Created by Vincent on 2/21/19

@@ -2,8 +2,8 @@ package com.zawmoehtike.domain.usecases
 
 import androidx.paging.PagingData
 import com.zawmoehtike.domain.DispatcherProvider
-import com.zawmoehtike.domain.model.MovieVo
-import com.zawmoehtike.domain.repository.MovieRepository
+import com.zawmoehtike.domain.models.MovieVo
+import com.zawmoehtike.domain.repositories.MovieRepository
 import com.zawmoehtike.domain.utils.FlowUseCase
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject

@@ -1,7 +1,7 @@
-package com.zawmoehtike.domain.repository
+package com.zawmoehtike.domain.repositories
 
-import com.zawmoehtike.domain.model.ActorVo
-import com.zawmoehtike.domain.model.MovieVo
+import com.zawmoehtike.domain.models.ActorVo
+import com.zawmoehtike.domain.models.MovieVo
 import kotlinx.coroutines.flow.Flow
 
 /**

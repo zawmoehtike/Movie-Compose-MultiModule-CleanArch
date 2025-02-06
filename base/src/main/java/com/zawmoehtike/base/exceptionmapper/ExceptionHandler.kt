@@ -1,6 +1,6 @@
 package com.zawmoehtike.base.exceptionmapper
 
-import com.zawmoehtike.share.mapper.UnidirectionalSuspendMap
+import com.zawmoehtike.share.mappers.UnidirectionalSuspendMap
 
 
 interface ExceptionHandler : UnidirectionalSuspendMap<Throwable, String> {

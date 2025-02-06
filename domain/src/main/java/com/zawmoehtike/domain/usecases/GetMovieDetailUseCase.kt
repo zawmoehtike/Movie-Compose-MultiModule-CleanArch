@@ -1,8 +1,8 @@
 package com.zawmoehtike.domain.usecases
 
 import com.zawmoehtike.domain.DispatcherProvider
-import com.zawmoehtike.domain.model.MovieDetailVo
-import com.zawmoehtike.domain.repository.MovieRepository
+import com.zawmoehtike.domain.models.MovieDetailVo
+import com.zawmoehtike.domain.repositories.MovieRepository
 import com.zawmoehtike.domain.utils.CoroutineUseCase
 import javax.inject.Inject
 

@@ -7,14 +7,13 @@ import androidx.paging.map
 import androidx.room.withTransaction
 import com.zawmoehtike.data.cache.AppDatabase
 import com.zawmoehtike.data.cache.entities.GenreEntity
-import com.zawmoehtike.data.cache.mappers.*
 import com.zawmoehtike.data.network.services.*
 import com.zawmoehtike.data.network.mappers.*
 import com.zawmoehtike.data.network.pagingsources.NowPlayingMoviePagingSource
 import com.zawmoehtike.data.network.pagingsources.UpComingMoviePagingSource
-import com.zawmoehtike.domain.model.*
-import com.zawmoehtike.domain.repository.MovieRepository
-import com.zawmoehtike.share.extension.orZero
+import com.zawmoehtike.domain.models.*
+import com.zawmoehtike.domain.repositories.MovieRepository
+import com.zawmoehtike.share.extensions.orZero
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject

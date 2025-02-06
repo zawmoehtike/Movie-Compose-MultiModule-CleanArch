@@ -1,8 +1,8 @@
 package com.zawmoehtike.domain.usecases
 
 import com.zawmoehtike.domain.DispatcherProvider
-import com.zawmoehtike.domain.model.MovieVo
-import com.zawmoehtike.domain.repository.HomeRepository
+import com.zawmoehtike.domain.models.MovieVo
+import com.zawmoehtike.domain.repositories.HomeRepository
 import com.zawmoehtike.domain.utils.FlowUseCase
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject

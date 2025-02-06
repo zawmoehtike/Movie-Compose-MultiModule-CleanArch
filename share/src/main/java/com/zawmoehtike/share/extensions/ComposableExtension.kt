@@ -1,4 +1,4 @@
-package com.zawmoehtike.share.extension
+package com.zawmoehtike.share.extensions
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource

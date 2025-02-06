@@ -1,8 +1,8 @@
 package com.zawmoehtike.data.cache.mappers
 
 import com.zawmoehtike.data.cache.entities.*
-import com.zawmoehtike.domain.model.*
-import com.zawmoehtike.share.mapper.*
+import com.zawmoehtike.domain.models.*
+import com.zawmoehtike.share.mappers.*
 import javax.inject.Inject
 
 /**

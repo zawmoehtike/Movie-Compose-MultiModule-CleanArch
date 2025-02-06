@@ -2,8 +2,8 @@ package com.zawmoehtike.data.network.mappers
 
 import com.zawmoehtike.data.network.responses.MovieResponse
 import com.zawmoehtike.data.network.ktor.IMAGE_BASE_URL
-import com.zawmoehtike.domain.model.*
-import com.zawmoehtike.share.extension.orZero
+import com.zawmoehtike.domain.models.*
+import com.zawmoehtike.share.extensions.orZero
 import javax.inject.Inject
 
 /**

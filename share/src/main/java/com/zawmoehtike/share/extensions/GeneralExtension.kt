@@ -1,4 +1,4 @@
-package com.zawmoehtike.share.extension
+package com.zawmoehtike.share.extensions
 
 import android.annotation.SuppressLint
 import android.content.Context

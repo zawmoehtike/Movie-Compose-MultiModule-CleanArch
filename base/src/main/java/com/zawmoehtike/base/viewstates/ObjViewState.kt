@@ -1,4 +1,4 @@
-package com.zawmoehtike.base.viewstate
+package com.zawmoehtike.base.viewstates
 
 import androidx.compose.runtime.Composable
 

@@ -5,8 +5,8 @@ import com.zawmoehtike.data.cache.AppDatabase
 import com.zawmoehtike.data.cache.mappers.*
 import com.zawmoehtike.data.network.services.*
 import com.zawmoehtike.data.network.mappers.*
-import com.zawmoehtike.domain.repository.HomeRepository
-import com.zawmoehtike.domain.model.*
+import com.zawmoehtike.domain.repositories.HomeRepository
+import com.zawmoehtike.domain.models.*
 import kotlinx.coroutines.async
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.flow.Flow

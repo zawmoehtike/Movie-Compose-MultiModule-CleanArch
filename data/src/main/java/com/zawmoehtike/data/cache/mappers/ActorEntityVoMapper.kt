@@ -2,8 +2,8 @@ package com.zawmoehtike.data.cache.mappers
 
 import com.zawmoehtike.data.cache.entities.ActorEntity
 import com.zawmoehtike.data.network.ktor.IMAGE_BASE_URL
-import com.zawmoehtike.domain.model.ActorVo
-import com.zawmoehtike.share.mapper.UnidirectionalMap
+import com.zawmoehtike.domain.models.ActorVo
+import com.zawmoehtike.share.mappers.UnidirectionalMap
 import javax.inject.Inject
 
 /**

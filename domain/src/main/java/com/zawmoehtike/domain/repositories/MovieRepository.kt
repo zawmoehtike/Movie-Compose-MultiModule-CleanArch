@@ -1,7 +1,7 @@
-package com.zawmoehtike.domain.repository
+package com.zawmoehtike.domain.repositories
 
 import androidx.paging.PagingData
-import com.zawmoehtike.domain.model.*
+import com.zawmoehtike.domain.models.*
 import kotlinx.coroutines.flow.Flow
 
 /**

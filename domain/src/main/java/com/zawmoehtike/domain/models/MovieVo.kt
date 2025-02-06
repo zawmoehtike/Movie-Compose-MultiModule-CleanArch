@@ -1,4 +1,4 @@
-package com.zawmoehtike.domain.model
+package com.zawmoehtike.domain.models
 
 /**
  * Created by P.T.H.W on 02/04/2024.

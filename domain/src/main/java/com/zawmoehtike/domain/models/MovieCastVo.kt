@@ -1,9 +1,9 @@
-package com.zawmoehtike.domain.model
+package com.zawmoehtike.domain.models
 
 /**
- * Created by P.T.H.W on 02/04/2024.
+ * Created by P.T.H.W on 24/04/2024.
  */
-data class ActorVo(
+data class MovieCastVo(
     val adult: Boolean,
     val gender: Int,
     val id: Int,
@@ -12,4 +12,8 @@ data class ActorVo(
     val originalName: String,
     val popularity: Double,
     val profilePath: String,
+    val castId: Int,
+    val character: String,
+    val creditId: String,
+    val order: Int
 )

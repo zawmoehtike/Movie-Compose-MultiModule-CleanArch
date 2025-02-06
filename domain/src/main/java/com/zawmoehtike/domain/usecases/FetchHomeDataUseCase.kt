@@ -1,7 +1,7 @@
 package com.zawmoehtike.domain.usecases
 
 import com.zawmoehtike.domain.DispatcherProvider
-import com.zawmoehtike.domain.repository.HomeRepository
+import com.zawmoehtike.domain.repositories.HomeRepository
 import com.zawmoehtike.domain.utils.CoroutineUseCase
 import javax.inject.Inject
 
