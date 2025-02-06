@@ -3,8 +3,8 @@ package com.zawmoehtike.data.cache
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.zawmoehtike.data.cache.daos.GenreDao
-import com.zawmoehtike.data.cache.entities.GenreEntity
+import com.zawmoehtike.data.cache.daos.*
+import com.zawmoehtike.data.cache.entities.*
 import com.zawmoehtike.data.cache.typeconverters.IntegerListConverter
 import com.zawmoehtike.data.cache.typeconverters.StringListConverter
 
@@ -13,8 +13,10 @@ import com.zawmoehtike.data.cache.typeconverters.StringListConverter
  */
 
 @Database(
-    entities = [GenreEntity::class],
-    version = 5,
+    entities = [MovieEntity::class,
+        ActorEntity::class,
+        GenreEntity::class],
+    version = 1,
     exportSchema = false
 )
 @TypeConverters(
@@ -22,5 +24,7 @@ import com.zawmoehtike.data.cache.typeconverters.StringListConverter
     StringListConverter::class,
 )
 abstract class AppDatabase : RoomDatabase() {
+    abstract fun movieDao(): MovieDao
+    abstract fun actorDao(): ActorDao
     abstract fun genreDao(): GenreDao
 }
