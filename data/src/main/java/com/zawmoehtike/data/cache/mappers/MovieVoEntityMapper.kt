@@ -1,10 +1,8 @@
-package com.pthw.data.cache.home.mapper
+package com.zawmoehtike.data.cache.mappers
 
-import com.pthw.data.cache.database.entities.GenreEntity
-import com.pthw.data.cache.database.entities.MovieEntity
-import com.pthw.domain.home.model.MovieVo
-import com.pthw.domain.movie.model.GenreVo
-import com.pthw.shared.mapper.UnidirectionalMap
+import com.zawmoehtike.data.cache.entities.*
+import com.zawmoehtike.domain.model.*
+import com.zawmoehtike.share.mapper.*
 import javax.inject.Inject
 
 /**

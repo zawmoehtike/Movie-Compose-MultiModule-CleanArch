@@ -1,10 +1,10 @@
-package com.pthw.data.cache.home.daos
+package com.zawmoehtike.data.cache.daos
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.pthw.data.cache.database.entities.MovieEntity
+import com.zawmoehtike.data.cache.entities.MovieEntity
 import kotlinx.coroutines.flow.Flow
 
 /**

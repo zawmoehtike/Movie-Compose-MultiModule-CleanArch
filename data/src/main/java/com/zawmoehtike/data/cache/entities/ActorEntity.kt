@@ -1,4 +1,4 @@
-package com.pthw.data.cache.database.entities
+package com.zawmoehtike.data.cache.entities
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

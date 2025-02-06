@@ -1,8 +1,7 @@
-package com.pthw.data.cache.database.entities
+package com.zawmoehtike.data.cache.entities
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.pthw.domain.home.model.MovieVo
 
 /**
  * Created by P.T.H.W on 02/04/2024.
