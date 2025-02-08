@@ -20,7 +20,10 @@ fun NavGraphBuilder.movieNavPage(
     composable(
         route = movieNavPageNavigationRoute,
     ) {
-        MovieNavPage()
+        MovieNavPage(
+            sharedTransitionScope = sharedTransitionScope,
+            animatedContentScope = this
+        )
     }
 }
 
