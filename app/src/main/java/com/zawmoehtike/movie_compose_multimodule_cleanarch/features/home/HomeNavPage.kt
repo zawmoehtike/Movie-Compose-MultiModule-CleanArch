@@ -67,6 +67,18 @@ fun HomeNavPage(
         popularActors = viewModel.popularPeople.value
     )
 
+    fun onAction(action: UiEvent) {
+        when (action) {
+            UiEvent.Refresh -> viewModel.refreshHomeData()
+            UiEvent.SeeAll -> navController.navigate(movieListingPageNavigationRoute)
+            is UiEvent.ItemClick -> {
+                navController.navigateToMovieDetailPage(
+                    movieId = action.movie.id, backdropPath = action.movie.backdropPath
+                )
+            }
+        }
+    }
+
     if (uiState.isReady()) {
         HomePageContent(
             modifier = modifier,
@@ -74,15 +86,7 @@ fun HomeNavPage(
             sharedTransitionScope = sharedTransitionScope,
             animatedContentScope = animatedContentScope,
             onAction = {
-                when (it) {
-                    UiEvent.Refresh -> viewModel.refreshHomeData()
-                    UiEvent.SeeAll -> navController.navigate(movieListingPageNavigationRoute)
-                    is UiEvent.ItemClick -> {
-                        navController.navigateToMovieDetailPage(
-                            movieId = it.movie.id, backdropPath = it.movie.backdropPath
-                        )
-                    }
-                }
+                onAction(it)
             },
         )
     } else {
