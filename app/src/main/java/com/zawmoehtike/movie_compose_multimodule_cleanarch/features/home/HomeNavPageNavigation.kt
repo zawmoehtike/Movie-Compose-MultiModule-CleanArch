@@ -20,7 +20,10 @@ fun NavGraphBuilder.homeNavPage(
     composable(
         route = homeNavPageNavigationRoute,
     ) {
-        HomeNavPage()
+        HomeNavPage(
+            sharedTransitionScope = sharedTransitionScope,
+            animatedContentScope = this
+        )
     }
 }
 
